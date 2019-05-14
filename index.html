@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head lang="en">
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>All About Dogs</title>
+    <meta
+      name="description"
+      content="A quiz app to challenge your knowledge about dogs."
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Indie+Flower"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header role="banner">
+      <h1>Doggone Quiz</h1>
+    </header>
+    <section>
+      <div class="container">
+        <div class="introduction">
+          <h2>How much do you really know about dogs? Let's test it out!</h2>
+          <button type="button" class="walkMeButton">Walk Me!</button>
+        </div>
+        <div class="questionsAndAnswers"></div>
+        <div class="questionNumber"></div>
+      </div>
+
+      <div class="changeNumber">
+        <ul>
+          <li>Question: <span class="questionTicker">0</span> out of 10</li>
+          <li>Answered Correctly: <span class="score">0</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="questions.js"></script>
+    <script type="text/javascript" src="index.js"></script>
+  </body>
+</html>

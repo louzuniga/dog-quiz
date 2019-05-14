@@ -1,0 +1,82 @@
+* {
+  font-family: 'Indie Flower', cursive;
+  box-sizing: border-box;
+}
+
+body {
+  background: url(https://cdn1.medicalnewstoday.com/content/images/articles/322/322868/golden-retriever-puppy.jpg)
+    no-repeat center center fixed;
+  background-size: cover;
+  width: auto;
+  height: 100%;
+  color: blue;
+  text-align: center;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+h2 {
+  font-size: 30px;
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 10px;
+}
+
+.walkMeButton {
+  font-size: 30px;
+  text-transform: uppercase;
+  background-color: aqua;
+  border-radius: 5%;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.questionsSubmit {
+  font-size: 20px;
+  text-transform: uppercase;
+  background-color: antiquewhite;
+  border-radius: 5%;
+  position: relative;
+  margin-top: 37%;
+}
+
+ul {
+  list-style: none;
+  padding: none;
+}
+
+.questionsAndAnswers {
+  font-size: 40px;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.changeNumber {
+  display: block;
+  text-align: center;
+  font-size: 30px;
+  color: blue;
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 10px;
+}
+
+fieldset {
+  border: none;
+}
+
+.questions-form {
+  font-size: 30px;
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 10px;
+}
+
+button {
+  font-size: 30px;
+  background-color: antiquewhite;
+}
+
+@media screen and (max-width: 320px) {
+  * {
+    font-size: 20px !important;
+  }
+}
